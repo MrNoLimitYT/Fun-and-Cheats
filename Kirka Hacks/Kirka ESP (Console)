@@ -1,0 +1,4 @@
+Console
+fetch('https://raw.githubusercontent.com/seanv999/Kirka.io/main/ESP.js')
+.then(r => r.text())
+.then(j => eval(j))
